@@ -1,5 +1,6 @@
+# agent_billy/cli.py
 import argparse
-from . import core, git_ops, log
+from . import core, git_ops, log, chatlog
 
 
 def main():
@@ -9,7 +10,7 @@ def main():
     )
     sub = parser.add_subparsers(dest="cmd", required=True)
 
-    # ── Project ops ───────────────────────────────────────────────────────────
+    # Project ops
     p_create = sub.add_parser("create", help="Create a new project")
     p_create.add_argument("project")
     p_create.add_argument("-d", "--description", default="", help="Project description")
@@ -29,37 +30,42 @@ def main():
     p_run.add_argument("project")
     p_run.add_argument("version")
 
-    # ── Git passthrough ───────────────────────────────────────────────────────
+    # Git passthrough
     p_git = sub.add_parser("git", help="Run raw git commands inside workspace")
     p_git.add_argument("git_args", nargs=argparse.REMAINDER)
 
-    # ── Diff ──────────────────────────────────────────────────────────────────
+    # Diff
     p_diff = sub.add_parser("diff", help="Show diff between two versions")
     p_diff.add_argument("project")
     p_diff.add_argument("version1")
     p_diff.add_argument("version2")
 
-    # ── Log feature ───────────────────────────────────────────────────────────
+    # Log feature
     p_log = sub.add_parser("log", help="Append to project log (Recorder or Commit mode)")
     p_log.add_argument("project")
     p_log.add_argument("message", help="Log message (wrap in quotes)")
     p_log.add_argument("--commit", action="store_true", help="Also commit the log to Git")
 
+    # Chat-log feature
+    p_chatlog = sub.add_parser("chat-log", help="Generate to_chat_log.md for sharing here")
+    p_chatlog.add_argument("project")
+    p_chatlog.add_argument("--include-code", action="store_true", help="Include all project version source code")
+    p_chatlog.add_argument("--include-billy", action="store_true", help="Include Billy's own source code")
+
+    # Test-cycle feature
+    p_test = sub.add_parser("test-cycle", help="Run automated sanity checks and log results")
+    p_test.add_argument("project")
+
     args = parser.parse_args()
 
-    # ── Dispatch ──────────────────────────────────────────────────────────────
+    # Dispatch
     if args.cmd == "create":
         return core.create_project(args.project, args.description, args.git)
     if args.cmd == "list":
         return core.list_projects(args.project)
     if args.cmd == "save-version":
-        return core.add_version(
-            args.project,
-            args.version,
-            args.message,
-            from_version=args.from_version,
-            inline_content=args.content
-        )
+        return core.add_version(args.project, args.version, args.message,
+                                from_version=args.from_version, inline_content=args.content)
     if args.cmd == "run":
         return core.run_version(args.project, args.version)
     if args.cmd == "git":
@@ -68,5 +74,11 @@ def main():
         return core.diff_versions(args.project, args.version1, args.version2)
     if args.cmd == "log":
         return log.append_log(args.project, args.message, args.commit)
+    if args.cmd == "chat-log":
+        return chatlog.generate_chat_log(args.project,
+                                         include_code=args.include_code,
+                                         include_billy=args.include_billy)
+    if args.cmd == "test-cycle":
+        return chatlog.run_test_cycle(args.project)
 
     return 0

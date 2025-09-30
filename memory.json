@@ -80,9 +80,9 @@
           "description": "Sanity test version",
           "copied_from": "v7",
           "dependencies": [],
-          "last_run": null,
+          "last_run": "2025-09-30T19:36:41",
           "notes": "",
-          "git_commit": null
+          "git_commit": "203410e451d193e3bb95b707fc7c0d7bc78088a6"
         }
       },
       "tags": [],
