@@ -60,6 +60,16 @@
           "description": "End-to-end GitHub sync test",
           "copied_from": null,
           "dependencies": [],
+          "last_run": "2025-09-30T17:01:47",
+          "notes": "",
+          "git_commit": "c8d45baa16d915f63371fbaef4f280432b04b1b0"
+        },
+        "v7": {
+          "filename": "projects/agent_billy/agent_billy_v7.py",
+          "created_at": "2025-09-30T18:48:21",
+          "description": "Refactor: modular core + git helpers",
+          "copied_from": "v6",
+          "dependencies": [],
           "last_run": null,
           "notes": "",
           "git_commit": null
