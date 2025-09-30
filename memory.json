@@ -70,9 +70,9 @@
           "description": "Refactor: modular core + git helpers",
           "copied_from": "v6",
           "dependencies": [],
-          "last_run": null,
+          "last_run": "2025-09-30T18:48:34",
           "notes": "",
-          "git_commit": null
+          "git_commit": "280075171e79380f0e49ec1356b75fe5f259cdc8"
         }
       },
       "tags": [],
