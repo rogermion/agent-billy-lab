@@ -52,6 +52,16 @@
           "dependencies": [],
           "last_run": null,
           "notes": "",
+          "git_commit": "00b15800a9eadca5f975813f7fa35a5e5adae669"
+        },
+        "v6": {
+          "filename": "projects/agent_billy/agent_billy_v6.py",
+          "created_at": "2025-09-30T17:00:04",
+          "description": "End-to-end GitHub sync test",
+          "copied_from": null,
+          "dependencies": [],
+          "last_run": null,
+          "notes": "",
           "git_commit": null
         }
       },
