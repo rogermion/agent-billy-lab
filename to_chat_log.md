@@ -1,5 +1,5 @@
 # To Chat Log — agent_billy
-Generated: 2025-09-30T19:36:41
+Generated: 2025-09-30T20:50:59
 
 **Description:** Local Python-based project manager agent
 
@@ -11,20 +11,14 @@ Generated: 2025-09-30T19:36:41
 ---
 
 ## Repo Status
-## main...origin/main [ahead 1]
- M agent_billy/cli.py
- M docs/AGENT_BILLY_LOG.md
- M memory.json
-?? agent_billy/TEST_CYCLE.md
-?? agent_billy/chatlog.py
-?? to_chat_log.md
+## main...origin/main
 
 ## Recent Commits
+f1d3d1d Add test-cycle integration into chat-log and full Billy source snapshot
 203410e agent_billy v8: Sanity test version (auto-copied from v7)
 8e1cd6f Remove legacy monolithic script agent_billy.py
 ba275dc Refactor: split into package (core, git_ops, log, cli)
 10713c9 agent_billy log: docs: update Stage 1 log
-2800751 agent_billy v7: Refactor: modular core + git helpers (auto-copied from v6)
 
 ## Tags
 agent_billy_v4
@@ -42,11 +36,37 @@ agent_billy_v8
   - git_commit: 8447a8e6d6ca9b277ae3a32b25a9318b17fce505
   - last_run: None
 
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v1
+# Created: 2025-09-30T16:27:20
+
+def main():
+    print('Hello from agent_billy v1!')
+
+if __name__ == '__main__':
+    main()
+```
+
 - v2: Tweaked functions (created 2025-09-30T16:27:36)
   - file: projects/agent_billy/agent_billy_v2.py
   - copied_from: v1
   - git_commit: 42e0e31a41ef6900329ba4be9ecf87c1b0407fa5
   - last_run: 2025-09-30T16:28:03
+
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v1
+# Created: 2025-09-30T16:27:20
+
+def main():
+    print('Hello from agent_billy v1!')
+
+if __name__ == '__main__':
+    main()
+```
 
 - v3: Branch off v1 (created 2025-09-30T16:27:53)
   - file: projects/agent_billy/agent_billy_v3.py
@@ -54,11 +74,32 @@ agent_billy_v8
   - git_commit: 244476801b8d7b1b07b15bc0b450df63988f1bb1
   - last_run: None
 
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v1
+# Created: 2025-09-30T16:27:20
+
+def main():
+    print('Hello from agent_billy v1!')
+
+if __name__ == '__main__':
+    main()
+```
+
 - v4: Custom experiment (created 2025-09-30T16:27:58)
   - file: projects/agent_billy/agent_billy_v4.py
   - copied_from: None
   - git_commit: c13a9f286d25d816cc422b77cb586236ae68e45f
   - last_run: None
+
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v4
+# Created: 2025-09-30T16:27:58
+print('Hello v4!')
+```
 
 - v5: Testing Git tags and diff (created 2025-09-30T16:39:47)
   - file: projects/agent_billy/agent_billy_v5.py
@@ -66,11 +107,27 @@ agent_billy_v8
   - git_commit: 00b15800a9eadca5f975813f7fa35a5e5adae669
   - last_run: None
 
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v4
+# Created: 2025-09-30T16:27:58
+print('Hello v4!')
+```
+
 - v6: End-to-end GitHub sync test (created 2025-09-30T17:00:04)
   - file: projects/agent_billy/agent_billy_v6.py
   - copied_from: None
   - git_commit: c8d45baa16d915f63371fbaef4f280432b04b1b0
   - last_run: 2025-09-30T17:01:47
+
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v6
+# Created: 2025-09-30T17:00:04
+print('Hello from v6!')
+```
 
 - v7: Refactor: modular core + git helpers (created 2025-09-30T18:48:21)
   - file: projects/agent_billy/agent_billy_v7.py
@@ -78,11 +135,27 @@ agent_billy_v8
   - git_commit: 280075171e79380f0e49ec1356b75fe5f259cdc8
   - last_run: 2025-09-30T18:48:34
 
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v7
+# Created: 2025-09-30T18:48:21
+print('Hello from v6!')
+```
+
 - v8: Sanity test version (created 2025-09-30T19:03:17)
   - file: projects/agent_billy/agent_billy_v8.py
   - copied_from: v7
   - git_commit: 203410e451d193e3bb95b707fc7c0d7bc78088a6
-  - last_run: 2025-09-30T19:33:09
+  - last_run: 2025-09-30T19:36:41
+
+```python
+#!/usr/bin/env python3
+# Project: agent_billy
+# Version: v8
+# Created: 2025-09-30T19:03:17
+print('Hello from v6!')
+```
 
 ## Project Log
 # agent_billy Log
@@ -110,13 +183,8 @@ All versions have git commits ✅
 
 ### Step 3 — Git Status
 ```
-## main...origin/main [ahead 1]
- M agent_billy/cli.py
- M docs/AGENT_BILLY_LOG.md
+## main...origin/main
  M memory.json
-?? agent_billy/TEST_CYCLE.md
-?? agent_billy/chatlog.py
-?? to_chat_log.md
 ```
 
 
