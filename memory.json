@@ -113,6 +113,16 @@
           "last_run": null,
           "notes": "",
           "git_commit": "b6ad6fd8978d35792058505066e12b59ee15d52d"
+        },
+        "v14": {
+          "filename": "projects/agent_billy/agent_billy_v14.py",
+          "created_at": "2025-10-01T15:30:53",
+          "description": "Refactor: added safepoint system + own-full-diagnostic with folder structure and code dump",
+          "copied_from": "v8",
+          "dependencies": [],
+          "last_run": null,
+          "notes": "",
+          "git_commit": null
         }
       },
       "tags": [],
@@ -137,7 +147,7 @@
           "created_at": "2025-10-01T15:30:44",
           "description": "Post-refactor stable state (Version vs Safepoint cleanup complete)",
           "copied_from": "v8",
-          "git_commit": null
+          "git_commit": "6f0d8d1f2bc1e548994991f718fb5a9d5392c20f"
         }
       }
     }
