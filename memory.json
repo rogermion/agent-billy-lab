@@ -80,7 +80,7 @@
           "description": "Sanity test version",
           "copied_from": "v7",
           "dependencies": [],
-          "last_run": "2025-10-01T15:26:12",
+          "last_run": "2025-10-01T15:45:50",
           "notes": "",
           "git_commit": "203410e451d193e3bb95b707fc7c0d7bc78088a6"
         },
@@ -122,6 +122,16 @@
           "dependencies": [],
           "last_run": null,
           "notes": "",
+          "git_commit": "573c7c7dce1bcd713d760e3344b4ed6a593bdd00"
+        },
+        "v15": {
+          "filename": "projects/agent_billy/agent_billy_v15.py",
+          "created_at": "2025-10-01T15:52:04",
+          "description": "Stable baseline: v14 + external safepoints cleanup (no report generation)",
+          "copied_from": "v8",
+          "dependencies": [],
+          "last_run": null,
+          "notes": "",
           "git_commit": null
         }
       },
@@ -156,7 +166,20 @@
     "general_app": {
       "path": "/Users/macproroger/Documents/PROGRAMMING/GENERAL/general_app",
       "git_url": "git@github.com:rogermion/general_app.git",
-      "registered_at": "2025-09-30T22:00:00"
+      "registered_at": "2025-09-30T22:00:00",
+      "safepoints": {
+        "sp1": {
+          "created_at": "2025-10-01T15:39:35",
+          "message": "Baseline before restructure",
+          "commit": "a34974cdaab62798d83d2b0d2f9a790d9b7e49cd"
+        },
+        "sp2": {
+          "commit": "a34974cdaab62798d83d2b0d2f9a790d9b7e49cd",
+          "tag": "general_app_sp2",
+          "created_at": "2025-10-01T15:41:12",
+          "message": "Restructure baseline"
+        }
+      }
     }
   }
 }
