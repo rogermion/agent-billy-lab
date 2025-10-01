@@ -132,7 +132,7 @@
           "dependencies": [],
           "last_run": null,
           "notes": "",
-          "git_commit": null
+          "git_commit": "18a93546b7ef57da662e9c1ad8f44ac78fdd2845"
         }
       },
       "tags": [],
@@ -158,6 +158,13 @@
           "description": "Post-refactor stable state (Version vs Safepoint cleanup complete)",
           "copied_from": "v8",
           "git_commit": "6f0d8d1f2bc1e548994991f718fb5a9d5392c20f"
+        },
+        "sp4": {
+          "filename": "projects/agent_billy/safepoints/agent_billy_sp4.py",
+          "created_at": "2025-10-01T15:52:10",
+          "description": "Post-external-safepoint cleanup stable state",
+          "copied_from": "v15",
+          "git_commit": null
         }
       }
     }
