@@ -80,7 +80,7 @@
           "description": "Sanity test version",
           "copied_from": "v7",
           "dependencies": [],
-          "last_run": "2025-10-01T11:02:19",
+          "last_run": "2025-10-01T14:14:24",
           "notes": "",
           "git_commit": "203410e451d193e3bb95b707fc7c0d7bc78088a6"
         },
@@ -88,6 +88,16 @@
           "filename": "projects/agent_billy/agent_billy_v11.py",
           "created_at": "2025-10-01T11:03:20",
           "description": "v11: validated external project features (register/list/chat-log/git/diagnostic)",
+          "copied_from": "v8",
+          "dependencies": [],
+          "last_run": null,
+          "notes": "",
+          "git_commit": "20b3b2bca9278fa1cc82d1611151d4ff30b80f09"
+        },
+        "v12": {
+          "filename": "projects/agent_billy/agent_billy_v12.py",
+          "created_at": "2025-10-01T14:42:53",
+          "description": "Safepoint: baseline before implementing own-full-diagnostic",
           "copied_from": "v8",
           "dependencies": [],
           "last_run": null,
