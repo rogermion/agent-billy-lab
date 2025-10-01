@@ -80,7 +80,7 @@
           "description": "Sanity test version",
           "copied_from": "v7",
           "dependencies": [],
-          "last_run": "2025-10-01T15:45:50",
+          "last_run": "2025-10-01T16:32:59",
           "notes": "",
           "git_commit": "203410e451d193e3bb95b707fc7c0d7bc78088a6"
         },
@@ -164,6 +164,13 @@
           "created_at": "2025-10-01T15:52:10",
           "description": "Post-external-safepoint cleanup stable state",
           "copied_from": "v15",
+          "git_commit": "f1a96a6165ab0aa835ff84209725cff680e9e392"
+        },
+        "sp5": {
+          "filename": "projects/agent_billy/safepoints/agent_billy_sp5.py",
+          "created_at": "2025-10-01T16:35:06",
+          "description": "Stable state after TODO integration (internal + external)",
+          "copied_from": "v8",
           "git_commit": null
         }
       }
