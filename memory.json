@@ -80,7 +80,7 @@
           "description": "Sanity test version",
           "copied_from": "v7",
           "dependencies": [],
-          "last_run": "2025-10-01T14:54:37",
+          "last_run": "2025-10-01T15:03:15",
           "notes": "",
           "git_commit": "203410e451d193e3bb95b707fc7c0d7bc78088a6"
         },
@@ -112,11 +112,20 @@
           "dependencies": [],
           "last_run": null,
           "notes": "",
-          "git_commit": null
+          "git_commit": "b6ad6fd8978d35792058505066e12b59ee15d52d"
         }
       },
       "tags": [],
-      "git_enabled": true
+      "git_enabled": true,
+      "safepoints": {
+        "sp1": {
+          "filename": "projects/agent_billy/safepoints/agent_billy_sp1.py",
+          "created_at": "2025-10-01T15:14:48",
+          "description": "Pre-refactor checkpoint",
+          "copied_from": "v8",
+          "git_commit": null
+        }
+      }
     }
   },
   "external_projects": {
