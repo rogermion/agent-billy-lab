@@ -143,6 +143,16 @@
           "last_run": null,
           "notes": "",
           "git_commit": "52454667afc40ee630203befc9e1cd7d0dbae24b"
+        },
+        "v17": {
+          "filename": "projects/agent_billy/agent_billy_v17.py",
+          "created_at": "2025-10-03T11:41:08",
+          "description": "Stable diagnostic with TODO sync baseline",
+          "copied_from": "v8",
+          "dependencies": [],
+          "last_run": null,
+          "notes": "",
+          "git_commit": null
         }
       },
       "tags": [],
@@ -188,7 +198,7 @@
           "created_at": "2025-10-03T11:41:00",
           "description": "Stable post-TODO integration check (v16 diagnostic clean)",
           "copied_from": "v8",
-          "git_commit": null
+          "git_commit": "1fa7e3aa98cc7aa25ff656562018c04684b5fd4a"
         }
       }
     }
