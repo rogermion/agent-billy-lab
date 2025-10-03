@@ -162,7 +162,7 @@
           "dependencies": [],
           "last_run": null,
           "notes": "",
-          "git_commit": null
+          "git_commit": "f96c78ce7a532a6045e9779d8adab1792babd161"
         }
       },
       "tags": [],
@@ -209,6 +209,13 @@
           "description": "Stable post-TODO integration check (v16 diagnostic clean)",
           "copied_from": "v8",
           "git_commit": "1fa7e3aa98cc7aa25ff656562018c04684b5fd4a"
+        },
+        "sp7": {
+          "filename": "projects/agent_billy/safepoints/agent_billy_sp7.py",
+          "created_at": "2025-10-03T13:20:59",
+          "description": "Stable state after finalizing TODO integration (internal + external)",
+          "copied_from": "v8",
+          "git_commit": null
         }
       },
       "todo": [
