@@ -215,7 +215,7 @@
           "created_at": "2025-10-03T13:20:59",
           "description": "Stable state after finalizing TODO integration (internal + external)",
           "copied_from": "v8",
-          "git_commit": null
+          "git_commit": "ae266489818b37c3147ec7d2eeae0dd6d39ddc1f"
         }
       },
       "todo": [
