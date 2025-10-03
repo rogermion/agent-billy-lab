@@ -1,0 +1,10 @@
+- [ ] Extend diagnostics: include TODO section in reports
+- [ ] Add external project TODO sync
+- [ ] Add automated docs/AGENT_BILLY_LOG.md entry when saving versions/safepoints
+- [ ] Implement sync-to-archive (GPT master → Billy projects)
+- [ ] Auto To-Do Archive (per project, keep TODO.md updated)
+- [ ] Ensure TODO integration shows up in own-full-diagnostic
+- [ ] When running diagnostics, append TODO list to logs
+- [ ] Future: code injection & folder management
+- [ ] Add helper to list/show current TODOs via CLI
+- [ ] Highlight next priority item when generating diagnostic

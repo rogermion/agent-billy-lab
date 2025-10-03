@@ -80,7 +80,7 @@
           "description": "Sanity test version",
           "copied_from": "v7",
           "dependencies": [],
-          "last_run": "2025-10-03T11:39:27",
+          "last_run": "2025-10-03T12:37:00",
           "notes": "",
           "git_commit": "203410e451d193e3bb95b707fc7c0d7bc78088a6"
         },
@@ -152,7 +152,7 @@
           "dependencies": [],
           "last_run": null,
           "notes": "",
-          "git_commit": null
+          "git_commit": "08fae5dbe162684eb62161e99f90d43eb685fc11"
         }
       },
       "tags": [],
@@ -200,7 +200,19 @@
           "copied_from": "v8",
           "git_commit": "1fa7e3aa98cc7aa25ff656562018c04684b5fd4a"
         }
-      }
+      },
+      "todo": [
+        "- [ ] Extend diagnostics: include TODO section in reports",
+        "- [ ] Add external project TODO sync",
+        "- [ ] Add automated docs/AGENT_BILLY_LOG.md entry when saving versions/safepoints",
+        "- [ ] Implement sync-to-archive (GPT master → Billy projects)",
+        "- [ ] Auto To-Do Archive (per project, keep TODO.md updated)",
+        "- [ ] Ensure TODO integration shows up in own-full-diagnostic",
+        "- [ ] When running diagnostics, append TODO list to logs",
+        "- [ ] Future: code injection & folder management",
+        "- [ ] Add helper to list/show current TODOs via CLI",
+        "- [ ] Highlight next priority item when generating diagnostic"
+      ]
     }
   },
   "external_projects": {
@@ -220,7 +232,10 @@
           "created_at": "2025-10-01T15:41:12",
           "message": "Restructure baseline"
         }
-      }
+      },
+      "todo": [
+        "1. Redesign UI\\n2. Add dice animation\\n3. Improve tests"
+      ]
     }
   }
 }
